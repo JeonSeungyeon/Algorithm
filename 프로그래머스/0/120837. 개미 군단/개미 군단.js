@@ -1,8 +1,5 @@
 function solution(hp) {
     var answer = 0;
-    ant1 = 0;
-    ant2 = 0;
-    ant3 = 0;
     ant1 = Math.trunc(hp/5)
     ant2 = Math.trunc(hp%5/3)
     ant3 = Math.trunc(hp%5%3)
