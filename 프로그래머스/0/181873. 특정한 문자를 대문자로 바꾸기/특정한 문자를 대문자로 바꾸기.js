@@ -1,4 +1,3 @@
 function solution(my_string, alp) {
-    var regex = new RegExp(alp, 'g');
-    return my_string.replace(regex, alp.toUpperCase());
+    return my_string.replaceAll(alp, alp.toUpperCase());
 }
